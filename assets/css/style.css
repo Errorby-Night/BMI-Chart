@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1); /* Light background for header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add some shadow */
+}
+
+/* Logo styles */
+#logo {
+    height: 60px; /* Adjust logo size */
+    width: 90px;
+    margin-right: 10px; /* Space between logo and heading */
+}
+
+/* Heading styles */
+#heading {
+    margin: 0; /* Remove default margin */
+    pointer-events: none;
+    cursor: not-allowed;
+    user-select: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Theme button styles */
+#theme {
+    background: none; /* Remove button background */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer */
+    user-select: none;
+}
+
+/* Content styles */
+.content {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center; /* Center the canvas */
+    width: 60%;
+    padding: 20px;
+}
+
+#weightBmiChart{
+    width: 30%;
+    height: 0.4vh;
+}

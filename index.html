@@ -2,11 +2,20 @@
 <html>
     <head>
         <title>BMI Chart</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link rel="icon" href="assets/img/download.png">
     </head>
     <body>
-        <div class="header">
-            <h1>BMI Chart</h1>
+        <div class="header" id="header">
+            <img id="logo" src="assets/img/headerlogo.b37e1f9ee8296ba2a4e8.png">
+            <h1 id="heading">BMI Chart</h1>
+            <button id="theme"><img width="30" height="30" src="https://img.icons8.com/ios-filled/100/do-not-disturb-2.png" alt="external-Light-Mode-interface-glyph-silhouettes-icons-papa-vector"/></button>
         </div>
-        <div class="content"></div>
+        <div class="content">
+            <canvas id="weightBmiChart"></canvas>
+        </div>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
